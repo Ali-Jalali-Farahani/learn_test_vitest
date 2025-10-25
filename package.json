@@ -8,13 +8,14 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest",
-    "test-file": "vitest Component/MSW/Post.test.tsx"
+    "test-file": "vitest Component/Router/RoutesConfig.test.tsx"
   },
   "dependencies": {
     "axios": "^1.12.1",
     "next": "15.5.2",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "react-router": "^7.9.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
