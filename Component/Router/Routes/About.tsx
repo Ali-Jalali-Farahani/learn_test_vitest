@@ -1,7 +1,8 @@
 
+import MainAbout  from "@/app/about/page";
 
 export function About(){
     return <div data-testid='AboutMock'>
-        <h2>Hello from the about component!</h2>
+        <MainAbout/>
     </div>
 }

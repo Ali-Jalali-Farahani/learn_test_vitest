@@ -1,5 +1,5 @@
 import {NavLink, Outlet, RouteObject} from "react-router";
-import { About } from "./Routes/About";
+import {About}  from "./Routes/About";
 import { Home } from "./Routes/Home";
 import { PageNotFound } from "./Routes/PageNotFound";
 import { Post } from "./Routes/Post";
