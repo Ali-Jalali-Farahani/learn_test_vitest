@@ -1,18 +1,8 @@
-import { createMemoryRouter, RouterProvider } from "react-router";
-import { routesConfig } from "./RoutesConfig";
 import { render, screen } from "@testing-library/react";
 import { AppWithRoutes } from "./AppWithRoutes";
 import userEvent from '@testing-library/user-event'
 
 describe('Navbar navigation tests', () => {
-    // mock request in order to test
-    // global["Request"] = vi.fn().mockImplementation(() => ({
-    //     signal: {
-    //         removeEventListener: () => { },
-    //         addEventListener: () => { },
-    //     },
-    // }));
-
 
     it('show home component on home click', async () => {
         render(<AppWithRoutes />)

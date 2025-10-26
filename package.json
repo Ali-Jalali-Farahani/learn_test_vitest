@@ -11,6 +11,7 @@
     "test-file": "vitest Component/Router/RoutesConfig.test.tsx"
   },
   "dependencies": {
+    "@testing-library/user-event": "^14.6.1",
     "axios": "^1.12.1",
     "next": "15.5.2",
     "react": "19.1.0",

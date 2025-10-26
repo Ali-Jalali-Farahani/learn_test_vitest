@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
 import { TextEncoder } from 'util';
+Object.assign(global, { TextEncoder });
+import { render, screen } from '@testing-library/react';
 import { AppWithRoutes } from './AppWithRoutes';
 import { MemoryRouter } from 'react-router';
-global.TextEncoder = TextEncoder;
 
 vi.mock('./Routes/Home', () => ({
     Home: () => <div data-testid='HomeMock' />
